@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{edit}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["jugyo"]
@@ -28,6 +28,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "bin/edit",
+    "edit.gemspec",
     "lib/edit.rb",
     "lib/edit/mate.rb",
     "lib/edit/vim.rb",
