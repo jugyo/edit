@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+unless ARGV.size == 1
+  puts "Usage: edit file:line"
+  exit
+end
+$:.unshift File.expand_path('../../lib', __FILE__)
+require 'edit'
+Edit.open(*ARGV[0].split(':'))

@@ -1,0 +1,15 @@
+= edit
+
+Open a file in your edit with line number. It provides the command 'edit'.
+
+== Install
+
+  gem install edit
+
+== Usage
+
+  $ edit /path/to/foo.rb:10
+
+== Copyright
+
+Copyright (c) 2011 jugyo. See LICENSE.txt for further details.
